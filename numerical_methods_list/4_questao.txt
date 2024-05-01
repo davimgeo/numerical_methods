@@ -1,0 +1,7 @@
+Os números reais são armazenados em computadores utilizando o padrão de ponto flutuante, conhecido como IEEE 754. Esse padrão define formatos de representação para números de ponto flutuante de precisão simples (32 bits) e dupla precisão (64 bits), amplamente utilizados em computadores e linguagens de programação.
+
+No padrão IEEE 754, um número de ponto flutuante é composto por três partes principais:
+
+> Sinal: Indica se o número é positivo ou negativo, representado por um único bit.
+> Mantissa: Também conhecida como fração, é a parte que armazena a precisão do número. Para números de precisão simples (float), são usados 23 bits para a mantissa, enquanto para números de precisão dupla (double), são usados 52 bits.
+> Expoente: Indica a escala do número, permitindo representar valores muito pequenos e muito grandes. Para números de precisão simples, são usados 8 bits para o expoente, e para números de precisão dupla, são usados 11 bits.
